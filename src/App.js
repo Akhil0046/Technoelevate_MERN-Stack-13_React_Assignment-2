@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import BgColor from './components/BgColor'
+import Reacts from './components/Reacts'
+import Phython from './components/Phython'
+import Php from './components/Php'
+import Java from './components/Java'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+
+      <BgColor />
+      <Reacts />
+      <Phython />
+      <Php/>
+      <Java />
+      </div>
+    )
+  }
 }
-
-export default App;

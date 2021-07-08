@@ -1,0 +1,42 @@
+h1{
+
+    text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+.main-div{
+    width: 50vh;
+    border: 1px solid black;
+    margin: auto;
+    
+    
+}
+.div-column{
+    height: 5rem;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+}
+span, button{
+    margin: auto;
+    font-size: 25px;
+
+    
+}
+button{
+    border: none;
+    color: green;
+    background-color: bisque;
+}
+select{
+    display: block;
+    padding: 10px 20px;
+    margin-left:auto ;
+    margin-top:1rem;
+    margin-right: 1rem;
+    font-size: large;
+}
+#background{
+margin-right: 650px;
+margin-bottom: 50px;
+}
